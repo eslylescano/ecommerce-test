@@ -1,0 +1,36 @@
+# Compiled binary
+*.exe
+*.out
+*.app
+
+# Ignore any object files and libraries
+*.o
+*.a
+
+# Ignore generated files
+/_obj/
+/_test/
+/automock/
+/vendor/
+/Godeps/
+/_bin/
+
+# macOS system files
+.DS_Store
+
+# Go specific files
+.idea/
+*.iml
+
+# Compiled Go code
+*.test
+*.prof
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+*.zip
+*.terraform.*
+terraform.*
+bootstrap
+# End of file
